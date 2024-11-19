@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kunal's Portfolio</title>
+        <link rel="stylesheet" href="PORTFOLIO-CSS.CSS">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <nav>
+            <div class="parent">
+                <div id="portfolio">
+                    <h1><span>port</span>folio</h1>
+                </div>
+                <!-- Hamburger icon (visible only on small screens) -->
+                <div id="hamburger" onclick="toggleMenu()">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <!-- Menu bar -->
+                <div id="menubar" class="hidden">
+                    <a href="#aboutpage">ABOUT ME</a>
+                    <a href="#education">EDUCATION</a>
+                    <a href="#resume-bg">RESUME</a>
+                    <a href="#contact-bg">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+    
+        <main id="main">
+            <div class="M-parent">
+                <div class="mbaby">
+                    <p class="GRYCLR">HEY THERE!</p>
+                    <p class="kunal">I AM KUNAL PAUL</p>
+                    <p class="post">CREATIVE, WEBSITE DEVELOPER <br>& DESIGNER</p>
+                    <div id="foot4">
+                        <a id="icon" href="#">follow us</a>
+                        <a id="icon" href="https://www.instagram.com/invites/contact/?igsh=k8vvqodsvszk&utm_content=7qoi4p4"><i class="fa-brands fa-instagram"></i></a>
+                        <a id="icon" href="https://www.facebook.com/kunal.paul.73997"><i class="fa-brands fa-facebook"></i></a>
+                        <a id="icon" href="https://t.me/ooye_kunaal"><i class="fa-brands fa-telegram"></i></a>
+                        <a id="icon" href="https://whatsapp.com/dl/"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a id="icon" href="https://youtube.com/@oyeekunaal?si=2oJOpflzejt5twTt"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <button><a href="https://github.com/oyee-kunaal"> SEE MY WORK</a></button>
+    
+                <!-- About section -->
+                <section class="aboutpage" id="aboutpage">
+                    <div class="aboutme">
+                        <h1 id="ab-me">About Me</h1>
+                        <p>My name is Kunal, and I'm a Creative website developer & Designer. I love to create websites that catch attention, make people stop, and convey emotion. My expertise is in design & creating websites, as well as Social Media Graphics, Posters, and Cards.</p>
+                        <p>I will help you create eye-catching designs that convert. The only website developer/designer you'll ever need!</p>
+                    </div>
+                </section>
+    
+                <!-- Education section -->
+                <section id="education">
+                    <h1>Education</h1>
+                    <ul>
+                        <li>
+                            <h3>10th Class</h3>
+                            <p>R.P.V.V Civil Lines Delhi-54</p>
+                            <p>C.B.S.E Board in 2018</p>
+                        </li>
+                        <li>
+                            <h3>12th Class</h3>
+                            <p>R.P.V.V Civil Lines Delhi-54</p>
+                            <p>C.B.S.E Board in 2020</p>
+                        </li>
+                        <li>
+                            <h3>Graduation</h3>
+                            <p>School of Open Learning</p>
+                            <p>BA-Programme in 2023</p>
+                        </li>
+                    </ul>
+                    <h1>Technical Qualifications</h1>
+                    <ul>
+                        <li>
+                            <p>1 yr Computer Hardware & Networking Maintenance</p>
+                            <p>Sir C.V Raman ITI Dheerpur, Burari-110009</p>
+                            <p>2020-21</p>
+                        </li>
+                        <li>
+                            <p>2 yrs Information Technology</p>
+                            <p>Sir C.V Raman ITI Dheerpur, Burari-110009</p>
+                            <p>2021-23</p>
+                        </li>
+                        <li>
+                            <p>6 months Tally ERP-9/Prime</p>
+                            <p>Alok Coaching Center Wazirabad, Delhi-84</p>
+                            <p>Sep. 2023</p>
+                        </li>
+                    </ul>
+                </section>
+    
+                <!-- Resume section -->
+                <div id="resume-bg">
+                    <div class="resumebg">
+                        <div class="resumepic"></div>
+                    </div>
+                </div>
+    
+                <!-- Contact section -->
+                <div id="contact-bg">
+                    <div class="contact-us">
+                        <p id="CD">CONTACT DETAILS</p>
+                        <h3 id="E-W-S">EMAIL ADDRESS</h3>
+                        <p id="pp">kunalpal9209@gmail.com</p>
+                        <h3 id="E-W-S">WEBSITE</h3>
+                        <p id="pp">https://github.com/oyee-kunaal/</p>
+                        <h3 id="E-W-S">SOCIAL MEDIA</h3>
+                        <p id="pp">@oyee_kunaal_</p>
+                    </div>
+                    <img src="portfolio image.jpg" alt="Portfolio Image">
+                </div>
+                <div class="line"></div>
+            </div>
+        </main>
+    
+        <!-- Inline JavaScript for the toggle menu -->
+        <script>
+            function toggleMenu() {
+                var menu = document.getElementById('menubar');
+                if (menu.classList.contains('hidden')) {
+                    menu.classList.remove('hidden');
+                } else {
+                    menu.classList.add('hidden');
+                }
+            }
+        </script>
+    
+    </body>
+    </html>

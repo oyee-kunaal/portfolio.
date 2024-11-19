@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(buggati.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(25, 39, 58, 0.85);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 10px 0;
+}
+
+.parent {
+    height: auto;
+    background-color: rgb(25, 39, 58);
+    color: beige;
+    border: 6px solid rgb(138, 134, 134);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#portfolio {
+    font-size: 30px;
+    color: yellow;
+}
+
+span {
+    color: rgb(255, 0, 0);
+}
+
+/* Menu bar */
+#menubar {
+    display: flex;
+    gap: 20px;
+}
+
+/* Links in the menu bar */
+#menubar a {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-decoration: none;
+}
+
+/* Hamburger icon (shown only on small screens) */
+#hamburger {
+    display: none; /* Hidden by default */
+    cursor: pointer;
+}
+
+#hamburger i {
+    font-size: 30px;
+    color: white;
+}
+
+/* Hover effects */
+#menubar:hover {
+    background-color: rgb(28, 28, 42);
+    transition-duration: 1.8s;
+    border-radius: 25px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #1100ff;
+    font-size: 120%;
+}
+
+a:hover {
+    color: rgb(255, 6, 6);
+    text-shadow: white;
+    transition: .9s;
+    font-size: 35px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #1100ff;
+}
+
+/* Hidden class for menu when toggled */
+.hidden {
+    display: none;
+}
+
+.M-parent {
+    padding-top: 200px;
+    background-color: hwb(0 100% 0%);
+    color: rgb(0, 0, 0);
+}
+
+.mbaby {
+    height: 350px;
+    width: 100%;
+    margin: 10px;
+    background-image: url(buggati.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: azure;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+
+.GRYCLR {
+    color: gray;
+    font-size: x-large;
+    font-weight: 700;
+    padding-left: 50px;
+    margin: 20px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.kunal, .post {
+    color: rgb(15, 15, 54);
+    font-size: x-large;
+    font-weight: 900;
+    padding-left: 50px;
+    margin: 20px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#foot4 {
+    position: relative;
+    top: 45px;
+    display: inline-block;
+    color: rgb(0, 255, 13);
+    font-weight: 800;
+}
+
+#icon {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 700;
+    color: hsl(214, 79%, 19%);
+    text-align: center;
+    margin-left: 25px;
+}
+
+button {
+    background-color: rgba(0, 0, 255, 0.895);
+    color: rgb(217, 217, 142);
+    border-radius: 10px;
+    font-size: x-large;
+    box-shadow: 0 0 20px rebeccapurple, 0 0 40px violet;
+    margin-top: 5px;
+    padding: 10px;
+    transition: .3s ease;
+}
+
+button:hover {
+    color: blue;
+    background-color: white;
+}
+
+.aboutpage {
+    background: rgb(25, 39, 58);
+    height: auto;
+    padding-top: 20px;
+}
+
+.aboutme {
+    width: 98%;
+    margin: 14px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+#main {
+    border: 5px solid black;
+}
+
+#education {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#education h1 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#education ul {
+    list-style: none;
+    padding: 0;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+#education li {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#education h3 {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+#education p {
+    color: #999;
+    margin-bottom: 5px;
+}
+
+#ab-me {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#resume-bg {
+    background-color: rgb(25, 39, 58);
+    color: beige;
+    height: auto;
+    padding: 10px 0;
+}
+
+.resumebg {
+    background-color: #666;
+    width: 98%;
+    margin: 14px;
+    align-items: center;
+}
+
+.resumepic {
+    background: url(kunal\ Resume.jpeg.jpeg);
+    background-repeat: no-repeat;
+    height: 617px;
+    width: 67%;
+    background-size: contain;
+    margin-left: 33.5%;
+}
+
+.resumepic:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #1100ff;
+    transition-duration: 1s;
+}
+
+#contact-bg {
+    background-color: rgb(118, 128, 143);
+    height: auto;
+    width: 98%;
+    align-items: center;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+
+#CD {
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    padding-top: 60px;
+}
+
+#E-W-S {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(25, 39, 58);
+    border-radius: 5px;
+    height: 45px;
+    width: 300px;
+    padding-left: 15px;
+    margin: 20px auto;
+}
+
+#pp {
+    padding-left: 30px;
+    margin: 20px auto;
+    color: rgb(66, 64, 64);
+    font-weight: 700;
+}
+
+.line {
+    height: 20px;
+    width: 100%;
+    background-color: beige;
+}
+
+img {
+    float: right;
+    height: 500px;
+    margin-right: 150px;
+    margin-top: -470px;
+}
+
+.contact-us {
+    width: 50%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    /* Show hamburger icon on small screens */
+    #hamburger {
+        display: block;
+    }
+
+    /* Hide menu bar on small screens */
+    #menubar {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(25, 39, 58, 0.9);
+        padding: 20px;
+        display: none; /* Hidden by default */
+    }
+
+    /* Menu bar links should be stacked vertically on small screens */
+    #menubar a {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    .parent {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .M-parent {
+        padding-top: 100px;
+    }
+
+    .mbaby {
+        height: auto;
+    }
+
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .contact-us {
+        width: 100%;
+        text-align: center;
+    }
+
+    img {
+        float: none;
+        height: auto;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #portfolio {
+        font-size: 24px;
+    }
+
+    #menubar a {
+        font-size: 16px;
+    }
+
+    .GRYCLR, .kunal, .post {
+        font-size: large;
+    }
+
+    #CD {
+        font-size: 36px;
+    }
+
+    #E-W-S {
+        font-size: large;
+    }
+
+    #pp {
+        font-size: medium;
+    }
+}
